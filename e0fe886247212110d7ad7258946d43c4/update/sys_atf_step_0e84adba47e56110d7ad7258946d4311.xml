@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;button&gt;: Comment', Page area: 'Comment'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"b0c536be50f1bdfee081785b4646353b":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Comment\",\"inner_text\":\"Comment\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt; [feedback_button]: Comment with value sysverb_feedback\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Comment\",\"type\":\"submit\",\"version\":\"21.0\",\"sn_atf_mugshot_label_for_label_path\":\"Comment\",\"interesting_element_path\":[\"body\",\"button\"],\"get_value_result\":\"Comment\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"name\":\"not_important\",\"sn_atf_mugshot_value\":\"sysverb_feedback\",\"tag\":\"button\",\"isDisabled\":false,\"id\":\"feedback_button\",\"label_path\":[\"Comment\"],\"aria-label\":\"Comment\",\"hash\":\"b0c536be50f1bdfee081785b4646353b\",\"html_value\":\"sysverb_feedback\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 22:03:08</sys_created_on>
+        <sys_id>0e84adba47e56110d7ad7258946d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="AutomatedTestFrameworkExamples" source="e0fe886247212110d7ad7258946d43c4">e0fe886247212110d7ad7258946d43c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AutomatedTestFrameworkExamples">e0fe886247212110d7ad7258946d43c4</sys_scope>
+        <sys_update_name>sys_atf_step_0e84adba47e56110d7ad7258946d4311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 22:03:08</sys_updated_on>
+        <table/>
+        <test display_value="Custom UI testing on a Knowledge Base article">4ae12df647e56110d7ad7258946d434a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0e84adba47e56110d7ad7258946d4311"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0e84adba47e56110d7ad7258946d4311</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 22:03:08</sys_created_on>
+        <sys_id>25c46dba47e56110d7ad7258946d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 22:03:08</sys_updated_on>
+        <value>b0c536be50f1bdfee081785b4646353b</value>
+        <variable display_value="Component">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

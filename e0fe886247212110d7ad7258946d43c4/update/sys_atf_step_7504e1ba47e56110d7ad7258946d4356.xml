@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Textarea &lt;textarea&gt; [article_comments]' = 'Custom UI Testing', Page area = 'Leave a comment'
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"6da865c430f235a357d2db3161217097":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textarea &lt;textarea&gt; [article_comments]\",\"sn_atf_mugshot_long_description\":\"Textarea &lt;textarea&gt; [article_comments]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Leave a comment\",\"type\":\"textarea\",\"version\":\"21.0\",\"sn_atf_mugshot_label_for_label_path\":\"Leave a comment\",\"interesting_element_path\":[\"body\",\"textarea\"],\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Textarea &lt;textarea&gt;\",\"name\":\"article_comments\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"textarea\",\"isDisabled\":false,\"id\":\"article_comments\",\"label_path\":[\"Leave a comment\"],\"aria-label\":\"Leave a comment\",\"hash\":\"6da865c430f235a357d2db3161217097\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 22:01:44</sys_created_on>
+        <sys_id>7504e1ba47e56110d7ad7258946d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="AutomatedTestFrameworkExamples" source="e0fe886247212110d7ad7258946d43c4">e0fe886247212110d7ad7258946d43c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AutomatedTestFrameworkExamples">e0fe886247212110d7ad7258946d43c4</sys_scope>
+        <sys_update_name>sys_atf_step_7504e1ba47e56110d7ad7258946d4356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 22:01:44</sys_updated_on>
+        <table/>
+        <test display_value="Custom UI testing on a Knowledge Base article">4ae12df647e56110d7ad7258946d434a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=7504e1ba47e56110d7ad7258946d4356"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7504e1ba47e56110d7ad7258946d4356</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 22:01:44</sys_created_on>
+        <sys_id>cd742dba47e56110d7ad7258946d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 22:01:44</sys_updated_on>
+        <value>6da865c430f235a357d2db3161217097=Custom UI Testing^EQ</value>
+        <variable display_value="Component values">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e5dd168473330300c79260bdfaf6a794^id=7504e1ba47e56110d7ad7258946d4356"/>
+</record_update>
